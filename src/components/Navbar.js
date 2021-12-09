@@ -1,7 +1,4 @@
-/* eslint-disable no-script-url */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import logo from "../logo.png";
 // Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -10,9 +7,6 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark ">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          <img src={logo} alt="logo" className="logo" />
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -29,32 +23,32 @@ const Navbar = () => {
               <a
                 className="nav-link active"
                 aria-current="page"
-                href="javascript:void(0)">
+                href="javascript:void(0);">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="javascript:void(0)">
+              <a className="nav-link" href="javascript:void(0);">
                 About Me
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="javascript:void(0)">
+              <a className="nav-link" href="javascript:void(0);">
                 Services
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="javascript:void(0)">
+              <a className="nav-link" href="javascript:void(0);">
                 How Work
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="javascript:void(0)">
+              <a className="nav-link" href="javascript:void(0);">
                 Portfolio
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="javascript:void(0)">
+              <a className="nav-link" href="javascript:void(0);">
                 Contact
               </a>
             </li>
